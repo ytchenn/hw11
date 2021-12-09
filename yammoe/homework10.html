@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Introduce</title>
+	<style>
+	.first{color: white;font-size: 15pt;font-weight: 25pt;;background-color: blueviolet;}
+	.second{text-decoration: underline;font-size: 15pt;}
+	.third{background-color:yellowgreen ;font-weight: 25pt;border: 1px solid black;}
+</style>
+</head>
+<body>
+	<table style="border:3px #cccccc solid;" cellpadding="10" border=‘1’>
+<tr>
+	<th colspan="3"><h3>About-108202055</h3></th>
+</tr>
+<tr>
+	<td rowspan="3" >
+		<img src="1000.jpg" width="100" height="80" alt="this is my selfie"><br>
+		<label class="first" >personal photo</label>
+	</td>
+	<td colspan="2">
+		<form>
+		<label class="second">Name:
+			<input name="name" type="text">
+		</label>
+		</form>
+		<form>
+		<label>Gender:
+			<input type="radio" name="gender" value="male">Male
+			<input type="radio" name="gender" value="female">Female
+			<input type="radio" name="gender" value="other">Other
+		</label>
+		</form>
+</tr>
+<tr>
+	<td>
+		<label class="second">Country:
+				<select name="countries">
+					<option value="Taipei" selected>Taipei</option>
+					<option value="Tainan">Tainan</option>
+					<option value="Taichung">Taichung</option>
+					<option value="Taoyuan">Taoyuan</option>
+					</select>
+				</select>
+		</label>
+	</td>
+	<td>
+		<label class="second">Birthday:
+				<input type="date">
+		</label>
+	</td>
+<tr>
+	<td colspan="2">
+	<label class="second">E-mail:
+		<input type="text">
+	</label>
+	</td>
+</tr>
+<tr>
+<td>
+	<label class="first">Hobby</label>
+</td>
+<td colspan="2">
+	<form>
+		<input type="checkbox" name="freetime" value="swimming"><label class="third">Swimming</label>
+		<input type="checkbox" name="freetime " value="Volleyball"><label class="third">Volleyball</label>
+		<input type="checkbox" name="freetime" value="Movie"><label class="third">Movie</label>
+	<input type="checkbox" name="freetime" value="Game"><label class="third">Game</label>
+<input type="checkbox" name="freetime" value="sleep"><label class="third">sleep</label>
+</form>
+</td>
+	</tr>
+	<tr>
+		<td>
+		<label class="first">Skill</label>
+</td>
+<td colspan="2">
+	<form>
+		<input type="checkbox" name="langues" value="JAVA"><label class="third">Java</label>
+		
+		<input type="checkbox" name="langues" value="HTML"><label class="third">HTML</label>
+		<input type="checkbox" name="langues" value="python"><label class="third">Python</label>
+	<input type="checkbox" name="langues" value="microsoftoffice"><label class="third">Microsoft Office</label>
+<input type="checkbox" name="langues" value="premiere"><label class="third">Premiere</label>
+</form>
+</td>
+	</tr>
+	<tr>
+		<td>
+			<label class="first">Say Something
+			</label>
+		</td>
+		<td>
+			<textarea rows="4" cols="50"> 
+			</textarea>
+		</td>
+	</tr>
+<tr>
+	<td colspan="3">
+	<form>
+	<input type="submit" value="提交">
+	<input type="reset" value="重設">
+</form>
+</td>
+</tr>
+</body>
+</table>
+</html>
